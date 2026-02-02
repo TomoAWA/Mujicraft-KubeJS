@@ -1,0 +1,332 @@
+﻿{
+    "_comment": "混沌邪恶寻访 - 只有搞笑物品和垃圾",
+    "_bannerName": "混沌邪恶",
+    "tickets": {
+        "single": {
+            "type": "chaos",
+            "name": "【混沌】愚者契约",
+            "color": "darkRed",
+            "lore": [
+                {
+                    "text": "=== 混沌邪恶 ===",
+                    "color": "dark_red"
+                },
+                {
+                    "text": "【N 60%】",
+                    "color": "white"
+                },
+                {
+                    "text": "泥土/枯萎希望/毒马铃薯/腐肉/圆石/断剑柄/鸡毛",
+                    "color": "gray"
+                },
+                {
+                    "text": "【R 30%】",
+                    "color": "blue"
+                },
+                {
+                    "text": "传说之杖/无字天书/减肥圣水/一次性神器/金牙",
+                    "color": "blue"
+                },
+                {
+                    "text": "【SR 9%】",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "坏掉的表/虽然但是/至尊土豪锄/姜太公鱼竿",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "【SSR 1%】",
+                    "color": "gold"
+                },
+                {
+                    "text": "GM权杖/空气墙/传家宝/真正虚空/拼图方块",
+                    "color": "gold"
+                },
+                {
+                    "text": "警告: 全是垃圾! 无保底!",
+                    "color": "red"
+                }
+            ],
+            "price": {
+                "item": "minecraft:iron_ingot",
+                "count": 8
+            }
+        },
+        "multi": {
+            "type": "chaos_10",
+            "name": "【混沌】愚者盲盒",
+            "color": "darkRed",
+            "bold": true,
+            "lore": [
+                {
+                    "text": "=== 混沌邪恶 十连 ===",
+                    "color": "dark_red"
+                },
+                {
+                    "text": "十连垃圾! 无任何保底!",
+                    "color": "red"
+                },
+                {
+                    "text": "【N 60%】",
+                    "color": "white"
+                },
+                {
+                    "text": "泥土/枯萎希望/毒马铃薯/腐肉/圆石/断剑柄/鸡毛",
+                    "color": "gray"
+                },
+                {
+                    "text": "【R 30%】",
+                    "color": "blue"
+                },
+                {
+                    "text": "传说之杖/无字天书/减肥圣水/一次性神器/金牙",
+                    "color": "blue"
+                },
+                {
+                    "text": "【SR 9%】",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "坏掉的表/虽然但是/至尊土豪锄/姜太公鱼竿",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "【SSR 1%】",
+                    "color": "gold"
+                },
+                {
+                    "text": "GM权杖/空气墙/传家宝/真正虚空/拼图方块",
+                    "color": "gold"
+                },
+                {
+                    "text": "浪费铁锭的最佳选择!",
+                    "color": "yellow"
+                }
+            ],
+            "price": {
+                "item": "minecraft:iron_block",
+                "count": 8
+            }
+        }
+    },
+    "rates": {
+        "N": 60,
+        "R": 30,
+        "SR": 9,
+        "SSR": 1
+    },
+    "guarantees": {},
+    "pools": {
+        "N": [
+            {
+                "item": "minecraft:dirt",
+                "count": 1,
+                "name": "普通的泥土",
+                "itemName": "普通的泥土",
+                "itemLore": [
+                    "这真的是泥土",
+                    "你期待什么？"
+                ]
+            },
+            {
+                "item": "minecraft:dead_bush",
+                "count": 1,
+                "name": "枯萎的希望",
+                "itemName": "枯萎的希望",
+                "itemLore": [
+                    "就像你的抽卡运"
+                ]
+            },
+            {
+                "item": "minecraft:poisonous_potato",
+                "count": 1,
+                "name": "特级厨师晚餐",
+                "itemName": "特级厨师晚餐",
+                "itemLore": [
+                    "吃下去，可能会死"
+                ]
+            },
+            {
+                "item": "minecraft:rotten_flesh",
+                "count": 1,
+                "name": "陈年牛肉干",
+                "itemName": "陈年牛肉干",
+                "itemLore": [
+                    "有点酸味"
+                ]
+            },
+            {
+                "item": "minecraft:cobblestone",
+                "count": 1,
+                "name": "非常圆的圆石",
+                "itemName": "非常圆的圆石",
+                "itemLore": [
+                    "其实还是方的"
+                ]
+            },
+            {
+                "item": "minecraft:stick",
+                "count": 1,
+                "name": "断掉的剑柄",
+                "itemName": "断掉的剑柄",
+                "itemLore": [
+                    "原本是一把神剑..."
+                ]
+            },
+            {
+                "item": "minecraft:feather",
+                "count": 1,
+                "name": "凤凰羽毛",
+                "itemName": "凤凰羽毛",
+                "itemLore": [
+                    "(实际上是鸡毛)"
+                ]
+            }
+        ],
+        "R": [
+            {
+                "item": "minecraft:stick",
+                "count": 1,
+                "name": "传说之杖",
+                "itemName": "传说之杖",
+                "itemLore": [
+                    "耐久: 2 / ∞",
+                    "攻击力: 0.1"
+                ],
+                "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+            },
+            {
+                "item": "minecraft:paper",
+                "count": 1,
+                "name": "无字天书",
+                "itemName": "无字天书",
+                "itemLore": [
+                    "本来有字的",
+                    "但是没墨水了"
+                ]
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count": 1,
+                "name": "减肥圣水",
+                "itemName": "减肥圣水",
+                "itemLore": [
+                    "也就是空气"
+                ]
+            },
+            {
+                "item": "minecraft:wooden_hoe",
+                "count": 1,
+                "name": "一次性神器",
+                "itemName": "一次性神器",
+                "itemLore": [
+                    "真的只能用一次"
+                ],
+                "nbt": "{Damage:58}"
+            },
+            {
+                "item": "minecraft:gold_nugget",
+                "count": 1,
+                "name": "金牙",
+                "itemName": "金牙",
+                "itemLore": [
+                    "不知道是谁掉的"
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "item": "minecraft:clock",
+                "count": 1,
+                "name": "坏掉的表",
+                "itemName": "坏掉的表",
+                "itemLore": [
+                    "一天准两次"
+                ]
+            },
+            {
+                "item": "minecraft:compass",
+                "count": 1,
+                "name": "虽然但是",
+                "itemName": "虽然但是",
+                "itemLore": [
+                    "它指向出生点",
+                    "但你可能回不去了"
+                ]
+            },
+            {
+                "item": "minecraft:golden_hoe",
+                "count": 1,
+                "name": "至尊土豪锄",
+                "itemName": "至尊土豪锄",
+                "itemLore": [
+                    "耐久: 1",
+                    "还没用就快坏了"
+                ],
+                "nbt": "{Damage:31}"
+            },
+            {
+                "item": "minecraft:fishing_rod",
+                "count": 1,
+                "name": "姜太公的鱼竿",
+                "itemName": "姜太公的鱼竿",
+                "itemLore": [
+                    "没有钩子"
+                ],
+                "nbt": "{Damage:63}"
+            }
+        ],
+        "SSR": [
+            {
+                "item": "minecraft:command_block",
+                "count": 1,
+                "name": "GM的权杖",
+                "itemName": "GM的权杖",
+                "itemLore": [
+                    "警告：生存模式无法使用",
+                    "只能拿来看",
+                    "你看它还会变色！"
+                ]
+            },
+            {
+                "item": "minecraft:barrier",
+                "count": 1,
+                "name": "空气墙",
+                "itemName": "空气墙",
+                "itemLore": [
+                    "你看得见我吗？",
+                    "拿在手上才看得见"
+                ]
+            },
+            {
+                "item": "minecraft:bedrock",
+                "count": 1,
+                "name": "传家宝",
+                "itemName": "传家宝",
+                "itemLore": [
+                    "绝对挖不坏！",
+                    "可以垫桌脚"
+                ]
+            },
+            {
+                "item": "minecraft:structure_void",
+                "count": 1,
+                "name": "真正的虚空",
+                "itemName": "真正的虚空",
+                "itemLore": [
+                    "比空气还空气"
+                ]
+            },
+            {
+                "item": "minecraft:jigsaw",
+                "count": 1,
+                "name": "拼图方块",
+                "itemName": "拼图方块",
+                "itemLore": [
+                    "你拼不出来的"
+                ]
+            }
+        ]
+    }
+}

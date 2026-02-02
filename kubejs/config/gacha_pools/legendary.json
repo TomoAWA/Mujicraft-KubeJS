@@ -1,0 +1,200 @@
+{
+    "_comment": "传说寻访 - 顶级卡池，不出N卡",
+    "_bannerName": "传说寻访",
+    "tickets": {
+        "single": {
+            "type": "legendary",
+            "name": "【传说寻访】单抽券",
+            "color": "gold",
+            "lore": [
+                "传说卡池",
+                "SSR概率: 10%",
+                "不出N卡!"
+            ],
+            "price": {
+                "item": "minecraft:emerald",
+                "count": 32
+            }
+        },
+        "multi": {
+            "type": "legendary_10",
+            "name": "【传说寻访】十连券",
+            "color": "gold",
+            "bold": true,
+            "lore": [
+                "传说卡池 - 十连抽",
+                "保底: 2SR + 1SSR",
+                "9折优惠!"
+            ],
+            "price": {
+                "item": "minecraft:emerald_block",
+                "count": 32
+            }
+        }
+    },
+    "rates": {
+        "N": 0,
+        "R": 50,
+        "SR": 40,
+        "SSR": 10
+    },
+    "guarantees": {
+        "minRarity": "SR",
+        "minSSR": 1,
+        "minSR": 2
+    },
+    "pools": {
+        "N": [],
+        "R": [
+            {
+                "item": "minecraft:diamond",
+                "count": 8,
+                "name": "钻石×8"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 16,
+                "name": "绿宝石×16"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（效率V）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（锋利V）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（保护IV）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4}]}"
+            },
+            {
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 2,
+                "name": "附魔金苹果×2"
+            },
+            {
+                "item": "minecraft:totem_of_undying",
+                "count": 2,
+                "name": "不死图腾×2"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 1,
+                "name": "下界之星"
+            }
+        ],
+        "SR": [
+            {
+                "item": "minecraft:diamond_block",
+                "count": 4,
+                "name": "钻石块×4"
+            },
+            {
+                "item": "minecraft:emerald_block",
+                "count": 8,
+                "name": "绿宝石块×8"
+            },
+            {
+                "item": "minecraft:netherite_ingot",
+                "count": 2,
+                "name": "下界合金锭×2"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（时运III+效率V）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3},{id:\"minecraft:efficiency\",lvl:5}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（锋利V+抢夺III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:looting\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 4,
+                "name": "附魔金苹果×4"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 2,
+                "name": "下界之星×2"
+            },
+            {
+                "item": "minecraft:beacon",
+                "count": 1,
+                "name": "信标"
+            },
+            {
+                "item": "minecraft:elytra",
+                "count": 1,
+                "name": "鞘翅（轻微损耗）",
+                "nbt": "{Damage:50}"
+            }
+        ],
+        "SSR": [
+            {
+                "item": "minecraft:netherite_block",
+                "count": 1,
+                "name": "下界合金块"
+            },
+            {
+                "item": "minecraft:netherite_ingot",
+                "count": 8,
+                "name": "下界合金锭×8"
+            },
+            {
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 16,
+                "name": "附魔金苹果×16"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 5,
+                "name": "下界之星×5"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "终极附魔书（锋利V+抢夺III+经验修补）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:looting\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "终极附魔书（效率V+时运III+经验修补）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5},{id:\"minecraft:fortune\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            },
+            {
+                "item": "minecraft:elytra",
+                "count": 1,
+                "name": "全新鞘翅",
+                "nbt": "{Damage:0}"
+            },
+            {
+                "item": "minecraft:trident",
+                "count": 1,
+                "name": "三叉戟",
+                "nbt": "{Damage:0}"
+            },
+            {
+                "item": "minecraft:dragon_egg",
+                "count": 1,
+                "name": "龙蛋"
+            },
+            {
+                "item": "minecraft:dragon_head",
+                "count": 1,
+                "name": "龙首"
+            }
+        ]
+    }
+}

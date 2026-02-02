@@ -1,0 +1,266 @@
+{
+    "_comment": "物资补给 - 稀有功能性材料与模组核心资源",
+    "_bannerName": "物资补给",
+    "tickets": {
+        "single": {
+            "type": "functional",
+            "name": "【物资】补给凭证",
+            "color": "green",
+            "lore": [
+                {
+                    "text": "=== 物资补给 ===",
+                    "color": "green"
+                },
+                {
+                    "text": "【SSR 10%】",
+                    "color": "gold"
+                },
+                {
+                    "text": "模拟凝胶/狱火锭/传奇墨水/下界之星×2",
+                    "color": "gold"
+                },
+                {
+                    "text": "【SR 40%】",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "海洋之心/炽燃余烬/不死图腾",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "凋灵锭/回响碎片/潜影壳/海绵/下界合金碎片",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "【R 50%】",
+                    "color": "blue"
+                },
+                {
+                    "text": "奥术源质/空白符文/绯红钕锭/湛蓝钕锭",
+                    "color": "blue"
+                },
+                {
+                    "text": "龙息/钻石/绿宝石/恶魂之泪/幻翼膜",
+                    "color": "blue"
+                },
+                {
+                    "text": "末影珍珠/烈焰棒/粘液球/火药",
+                    "color": "blue"
+                },
+                {
+                    "text": "无垃圾! 最低R起步!",
+                    "color": "yellow"
+                }
+            ],
+            "price": {
+                "item": "minecraft:emerald",
+                "count": 32
+            }
+        },
+        "multi": {
+            "type": "functional_10",
+            "name": "【物资】十连补给箱",
+            "color": "green",
+            "bold": true,
+            "lore": [
+                {
+                    "text": "=== 物资补给 十连 ===",
+                    "color": "green"
+                },
+                {
+                    "text": "保底: 至少2个SR + 1个SSR",
+                    "color": "yellow"
+                },
+                {
+                    "text": "【SSR 10%】",
+                    "color": "gold"
+                },
+                {
+                    "text": "模拟凝胶/狱火锭/传奇墨水/下界之星×2",
+                    "color": "gold"
+                },
+                {
+                    "text": "【SR 40%】",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "海洋之心/炽燃余烬/不死图腾",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "凋灵锭/回响碎片/潜影壳/海绵/下界合金碎片",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "【R 50%】",
+                    "color": "blue"
+                },
+                {
+                    "text": "奥术源质/空白符文/绯红钕锭/湛蓝钕锭",
+                    "color": "blue"
+                },
+                {
+                    "text": "龙息/钻石/绿宝石/恶魂之泪/幻翼膜",
+                    "color": "blue"
+                },
+                {
+                    "text": "末影珍珠/烈焰棒/粘液球/火药",
+                    "color": "blue"
+                },
+                {
+                    "text": "9折优惠!",
+                    "color": "aqua"
+                }
+            ],
+            "price": {
+                "item": "minecraft:emerald_block",
+                "count": 4
+            }
+        }
+    },
+    "rates": {
+        "N": 0,
+        "R": 50,
+        "SR": 40,
+        "SSR": 10
+    },
+    "guarantees": {
+        "minRarity": "SR",
+        "minSSR": 1,
+        "minSR": 2
+    },
+    "pools": {
+        "N": [],
+        "R": [
+            {
+                "item": "irons_spellbooks:arcane_essence",
+                "count": 8,
+                "name": "奥术源质×8"
+            },
+            {
+                "item": "irons_spellbooks:blank_rune",
+                "count": 4,
+                "name": "空白符文×4"
+            },
+            {
+                "item": "alexscaves:scarlet_neodymium_ingot",
+                "count": 2,
+                "name": "绯红钕锭×2"
+            },
+            {
+                "item": "alexscaves:azure_neodymium_ingot",
+                "count": 2,
+                "name": "湛蓝钕锭×2"
+            },
+            {
+                "item": "minecraft:dragon_breath",
+                "count": 2,
+                "name": "龙息×2"
+            },
+            {
+                "item": "minecraft:diamond",
+                "count": 4,
+                "name": "钻石×4"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 8,
+                "name": "绿宝石×8"
+            },
+            {
+                "item": "minecraft:ghast_tear",
+                "count": 4,
+                "name": "恶魂之泪×4"
+            },
+            {
+                "item": "minecraft:phantom_membrane",
+                "count": 8,
+                "name": "幻翼膜×8"
+            },
+            {
+                "item": "minecraft:ender_pearl",
+                "count": 16,
+                "name": "末影珍珠×16"
+            },
+            {
+                "item": "minecraft:blaze_rod",
+                "count": 8,
+                "name": "烈焰棒×8"
+            },
+            {
+                "item": "minecraft:slime_ball",
+                "count": 16,
+                "name": "粘液球×16"
+            },
+            {
+                "item": "minecraft:gunpowder",
+                "count": 32,
+                "name": "火药×32"
+            }
+        ],
+        "SR": [
+            {
+                "item": "minecraft:heart_of_the_sea",
+                "count": 1,
+                "name": "海洋之心"
+            },
+            {
+                "item": "cataclysm:burning_ashes",
+                "count": 1,
+                "name": "炽燃余烬"
+            },
+            {
+                "item": "minecraft:totem_of_undying",
+                "count": 1,
+                "name": "不死图腾"
+            },
+            {
+                "item": "cataclysm:witherite_ingot",
+                "count": 1,
+                "name": "凋灵黑曜石锭"
+            },
+            {
+                "item": "minecraft:echo_shard",
+                "count": 1,
+                "name": "回响碎片"
+            },
+            {
+                "item": "minecraft:shulker_shell",
+                "count": 2,
+                "name": "潜影壳×2"
+            },
+            {
+                "item": "minecraft:sponge",
+                "count": 4,
+                "name": "海绵×4"
+            },
+            {
+                "item": "minecraft:netherite_scrap",
+                "count": 2,
+                "name": "下界合金碎片×2"
+            }
+        ],
+        "SSR": [
+            {
+                "item": "alexsmobs:mimicream",
+                "count": 1,
+                "name": "模拟凝胶"
+            },
+            {
+                "item": "cataclysm:ignitium_ingot",
+                "count": 1,
+                "name": "狱火锭"
+            },
+            {
+                "item": "irons_spellbooks:legendary_ink",
+                "count": 1,
+                "name": "传奇墨水"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 2,
+                "name": "下界之星×2"
+            }
+        ]
+    }
+}

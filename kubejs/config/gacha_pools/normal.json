@@ -1,0 +1,178 @@
+{
+    "_comment": "常规寻访 - 基础卡池，便宜但垃圾多",
+    "_bannerName": "常规寻访",
+    "tickets": {
+        "single": {
+            "type": "normal",
+            "name": "【常规寻访】单抽券",
+            "color": "white",
+            "lore": [
+                "基础卡池",
+                "SSR概率: 0.5%",
+                "右键使用"
+            ],
+            "price": {
+                "item": "minecraft:iron_ingot",
+                "count": 16
+            }
+        },
+        "multi": {
+            "type": "normal_10",
+            "name": "【常规寻访】十连券",
+            "color": "white",
+            "bold": true,
+            "lore": [
+                "基础卡池 - 十连抽",
+                "保底: 至少1个R",
+                "9折优惠!"
+            ],
+            "price": {
+                "item": "minecraft:iron_block",
+                "count": 16
+            }
+        }
+    },
+    "rates": {
+        "N": 70,
+        "R": 25,
+        "SR": 4.5,
+        "SSR": 0.5
+    },
+    "guarantees": {
+        "minRarity": "R"
+    },
+    "pools": {
+        "N": [
+            {
+                "item": "minecraft:iron_ingot",
+                "count": 16,
+                "name": "铁锭×16"
+            },
+            {
+                "item": "minecraft:gold_ingot",
+                "count": 8,
+                "name": "金锭×8"
+            },
+            {
+                "item": "minecraft:coal",
+                "count": 32,
+                "name": "煤炭×32"
+            },
+            {
+                "item": "minecraft:cooked_beef",
+                "count": 16,
+                "name": "熟牛肉×16"
+            },
+            {
+                "item": "minecraft:bread",
+                "count": 32,
+                "name": "面包×32"
+            },
+            {
+                "item": "minecraft:arrow",
+                "count": 64,
+                "name": "箭×64"
+            },
+            {
+                "item": "minecraft:ender_pearl",
+                "count": 4,
+                "name": "末影珍珠×4"
+            },
+            {
+                "item": "minecraft:experience_bottle",
+                "count": 8,
+                "name": "经验瓶×8"
+            },
+            {
+                "item": "minecraft:glowstone",
+                "count": 16,
+                "name": "萤石×16"
+            },
+            {
+                "item": "minecraft:obsidian",
+                "count": 8,
+                "name": "黑曜石×8"
+            }
+        ],
+        "R": [
+            {
+                "item": "minecraft:diamond",
+                "count": 3,
+                "name": "钻石×3"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 5,
+                "name": "绿宝石×5"
+            },
+            {
+                "item": "minecraft:golden_apple",
+                "count": 2,
+                "name": "金苹果×2"
+            },
+            {
+                "item": "minecraft:blaze_rod",
+                "count": 12,
+                "name": "烈焰棒×12"
+            },
+            {
+                "item": "minecraft:ghast_tear",
+                "count": 4,
+                "name": "恶魂之泪×4"
+            }
+        ],
+        "SR": [
+            {
+                "item": "minecraft:diamond",
+                "count": 8,
+                "name": "钻石×8"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 16,
+                "name": "绿宝石×16"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（效率III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（锋利III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:golden_apple",
+                "count": 4,
+                "name": "金苹果×4"
+            }
+        ],
+        "SSR": [
+            {
+                "item": "minecraft:diamond",
+                "count": 16,
+                "name": "钻石×16"
+            },
+            {
+                "item": "minecraft:totem_of_undying",
+                "count": 1,
+                "name": "不死图腾"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（经验修补）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+            },
+            {
+                "item": "minecraft:elytra",
+                "count": 1,
+                "name": "鞘翅（已损耗）",
+                "nbt": "{Damage:200}"
+            }
+        ]
+    }
+}

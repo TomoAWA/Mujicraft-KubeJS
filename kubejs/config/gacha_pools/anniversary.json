@@ -1,0 +1,158 @@
+{
+    "_comment": "零周年限定寻访 - 周年庆典限定卡池！",
+    "_bannerName": "零周年限定寻访",
+    "tickets": {
+        "single": {
+            "type": "anniversary",
+            "name": "【零周年限定】单抽券",
+            "color": "red",
+            "lore": [
+                "周年庆典限定卡池！",
+                "SSR概率: 5%",
+                "限定物品独家掉落！"
+            ],
+            "price": {
+                "item": "minecraft:nether_star",
+                "count": 1
+            }
+        },
+        "multi": {
+            "type": "anniversary_10",
+            "name": "【零周年限定】十连券",
+            "color": "red",
+            "bold": true,
+            "lore": [
+                "周年庆典限定卡池 - 十连抽",
+                "保底: 至少1个SSR!",
+                "限定物品独家掉落！"
+            ],
+            "price": {
+                "item": "minecraft:nether_star",
+                "count": 9
+            }
+        }
+    },
+    "rates": {
+        "N": 40,
+        "R": 40,
+        "SR": 15,
+        "SSR": 5
+    },
+    "guarantees": {
+        "minRarity": "SSR"
+    },
+    "pools": {
+        "N": [
+            {
+                "item": "minecraft:cake",
+                "count": 1,
+                "name": "周年蛋糕"
+            },
+            {
+                "item": "minecraft:firework_rocket",
+                "count": 16,
+                "name": "庆典烟花×16"
+            },
+            {
+                "item": "minecraft:golden_apple",
+                "count": 4,
+                "name": "金苹果×4"
+            },
+            {
+                "item": "minecraft:experience_bottle",
+                "count": 32,
+                "name": "经验瓶×32"
+            }
+        ],
+        "R": [
+            {
+                "item": "minecraft:diamond",
+                "count": 16,
+                "name": "钻石×16"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 32,
+                "name": "绿宝石×32"
+            },
+            {
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 2,
+                "name": "附魔金苹果×2"
+            },
+            {
+                "item": "minecraft:totem_of_undying",
+                "count": 1,
+                "name": "不死图腾"
+            },
+            {
+                "item": "minecraft:name_tag",
+                "count": 8,
+                "name": "命名牌×8"
+            }
+        ],
+        "SR": [
+            {
+                "item": "minecraft:netherite_ingot",
+                "count": 4,
+                "name": "下界合金锭×4"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 2,
+                "name": "下界之星×2"
+            },
+            {
+                "item": "minecraft:beacon",
+                "count": 1,
+                "name": "信标"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（经验修补+耐久III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:unbreaking\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:elytra",
+                "count": 1,
+                "name": "鞘翅（轻微损耗）",
+                "nbt": "{Damage:50}"
+            }
+        ],
+        "SSR": [
+            {
+                "item": "minecraft:netherite_block",
+                "count": 4,
+                "name": "【限定】下界合金块×4"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 10,
+                "name": "【限定】下界之星×10"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "【限定】终极附魔书（全属性）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:looting\",lvl:3},{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:fire_aspect\",lvl:2}]}"
+            },
+            {
+                "item": "minecraft:elytra",
+                "count": 2,
+                "name": "【限定】全新鞘翅×2",
+                "nbt": "{Damage:0}"
+            },
+            {
+                "item": "minecraft:dragon_egg",
+                "count": 1,
+                "name": "【限定】龙蛋"
+            },
+            {
+                "item": "minecraft:beacon",
+                "count": 3,
+                "name": "【限定】信标×3"
+            }
+        ]
+    }
+}

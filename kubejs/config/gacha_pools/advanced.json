@@ -1,0 +1,187 @@
+{
+    "_comment": "高级寻访 - 中档卡池，性价比最高",
+    "_bannerName": "高级寻访",
+    "tickets": {
+        "single": {
+            "type": "advanced",
+            "name": "【高级寻访】单抽券",
+            "color": "blue",
+            "lore": [
+                "高级卡池",
+                "SSR概率: 2%",
+                "右键使用"
+            ],
+            "price": {
+                "item": "minecraft:diamond",
+                "count": 8
+            }
+        },
+        "multi": {
+            "type": "advanced_10",
+            "name": "【高级寻访】十连券",
+            "color": "blue",
+            "bold": true,
+            "lore": [
+                "高级卡池 - 十连抽",
+                "保底: 至少1个SR",
+                "9折优惠!"
+            ],
+            "price": {
+                "item": "minecraft:diamond_block",
+                "count": 8
+            }
+        }
+    },
+    "rates": {
+        "N": 40,
+        "R": 45,
+        "SR": 13,
+        "SSR": 2
+    },
+    "guarantees": {
+        "minRarity": "SR"
+    },
+    "pools": {
+        "N": [
+            {
+                "item": "minecraft:iron_block",
+                "count": 2,
+                "name": "铁块×2"
+            },
+            {
+                "item": "minecraft:gold_block",
+                "count": 1,
+                "name": "金块×1"
+            },
+            {
+                "item": "minecraft:lapis_block",
+                "count": 2,
+                "name": "青金石块×2"
+            },
+            {
+                "item": "minecraft:experience_bottle",
+                "count": 12,
+                "name": "经验瓶×12"
+            },
+            {
+                "item": "minecraft:ender_pearl",
+                "count": 8,
+                "name": "末影珍珠×8"
+            }
+        ],
+        "R": [
+            {
+                "item": "minecraft:diamond",
+                "count": 5,
+                "name": "钻石×5"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 10,
+                "name": "绿宝石×10"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（效率IV）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:4}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（锋利IV）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:4}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（保护III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:golden_apple",
+                "count": 3,
+                "name": "金苹果×3"
+            },
+            {
+                "item": "minecraft:totem_of_undying",
+                "count": 1,
+                "name": "不死图腾"
+            }
+        ],
+        "SR": [
+            {
+                "item": "minecraft:diamond",
+                "count": 12,
+                "name": "钻石×12"
+            },
+            {
+                "item": "minecraft:emerald",
+                "count": 24,
+                "name": "绿宝石×24"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（效率V）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（时运III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（锋利V）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+            },
+            {
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 1,
+                "name": "附魔金苹果"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 1,
+                "name": "下界之星"
+            }
+        ],
+        "SSR": [
+            {
+                "item": "minecraft:netherite_ingot",
+                "count": 4,
+                "name": "下界合金锭×4"
+            },
+            {
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 4,
+                "name": "附魔金苹果×4"
+            },
+            {
+                "item": "minecraft:nether_star",
+                "count": 2,
+                "name": "下界之星×2"
+            },
+            {
+                "item": "minecraft:enchanted_book",
+                "count": 1,
+                "name": "附魔书（经验修补+耐久III）",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:unbreaking\",lvl:3}]}"
+            },
+            {
+                "item": "minecraft:elytra",
+                "count": 1,
+                "name": "鞘翅（轻微损耗）",
+                "nbt": "{Damage:100}"
+            },
+            {
+                "item": "minecraft:beacon",
+                "count": 1,
+                "name": "信标"
+            }
+        ]
+    }
+}

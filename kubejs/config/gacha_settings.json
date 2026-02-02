@@ -1,0 +1,62 @@
+{
+    "_comment": "全局设置",
+    "broadcast": {
+        "_description": "全服播报设置",
+        "enabled": true,
+        "rarities": [
+            "SSR",
+            "新春限定",
+            "UP",
+            "限定"
+        ],
+        "messagePrefix": "★ ",
+        "messageSuffix": " ★"
+    },
+    "banners": [
+        "functional",
+        "orbs",
+        "chaos"
+    ],
+    "rarityColors": {
+        "_description": "稀有度对应的颜色名称（用于 Text API）",
+        "N": "white",
+        "R": "blue",
+        "Orb": "lightPurple",
+        "SR": "lightPurple",
+        "SSR": "gold",
+        "UP": "red",
+        "新春限定": "red",
+        "限定": "aqua"
+    },
+    "rarityEffects": {
+        "_description": "稀有度对应的特效",
+        "SSR": {
+            "sound": "minecraft:ui.toast.challenge_complete",
+            "particle": "minecraft:totem_of_undying",
+            "particleCount": 50
+        },
+        "SR": {
+            "sound": "minecraft:entity.player.levelup",
+            "particle": "minecraft:enchant",
+            "particleCount": 30
+        },
+        "Orb": {
+            "sound": "minecraft:block.amethyst_block.chime",
+            "particle": "minecraft:wax_on",
+            "particleCount": 20
+        },
+        "R": {
+            "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "UP": {
+            "sound": "minecraft:ui.toast.challenge_complete",
+            "particle": "minecraft:totem_of_undying",
+            "particleCount": 100
+        },
+        "新春限定": {
+            "sound": "minecraft:entity.firework_rocket.launch",
+            "particle": "minecraft:firework",
+            "particleCount": 100
+        }
+    }
+}

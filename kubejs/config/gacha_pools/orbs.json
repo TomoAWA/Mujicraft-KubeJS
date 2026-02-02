@@ -1,0 +1,142 @@
+{
+    "_comment": "法球寻访 - Iron's Spells Upgrade Orbs Exclusive",
+    "_bannerName": "法球寻访",
+    "tickets": {
+        "single": {
+            "type": "orb",
+            "name": "【法球】寻访凭证",
+            "color": "lightPurple",
+            "lore": [
+                {
+                    "text": "=== 法球寻访 ===",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "100% 获得升级法球!",
+                    "color": "green"
+                },
+                {
+                    "text": "【共11种】",
+                    "color": "yellow"
+                },
+                {
+                    "text": "炽焰/冰霜/雷霆/神圣/末影/猩红",
+                    "color": "aqua"
+                },
+                {
+                    "text": "唤魔/自然/法力/冷却缩减/抗性",
+                    "color": "aqua"
+                },
+                {
+                    "text": "每次随机获得1个",
+                    "color": "gray"
+                }
+            ],
+            "price": {
+                "item": "minecraft:diamond",
+                "count": 3
+            }
+        },
+        "multi": {
+            "type": "orb_10",
+            "name": "【法球】十连礼盒",
+            "color": "lightPurple",
+            "bold": true,
+            "lore": [
+                {
+                    "text": "=== 法球寻访 十连 ===",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "必得10个升级法球! (100%)",
+                    "color": "green"
+                },
+                {
+                    "text": "【共11种】",
+                    "color": "yellow"
+                },
+                {
+                    "text": "炽焰/冰霜/雷霆/神圣/末影/猩红",
+                    "color": "aqua"
+                },
+                {
+                    "text": "唤魔/自然/法力/冷却缩减/抗性",
+                    "color": "aqua"
+                },
+                {
+                    "text": "9折优惠: 27钻石",
+                    "color": "gold"
+                }
+            ],
+            "price": {
+                "item": "minecraft:diamond",
+                "count": 27
+            }
+        }
+    },
+    "rates": {
+        "Orb": 100
+    },
+    "guarantees": {
+        "minRarity": "Orb"
+    },
+    "pools": {
+        "Orb": [
+            {
+                "item": "irons_spellbooks:fire_upgrade_orb",
+                "count": 1,
+                "name": "炽焰升级法球"
+            },
+            {
+                "item": "irons_spellbooks:ice_upgrade_orb",
+                "count": 1,
+                "name": "冰霜升级法球"
+            },
+            {
+                "item": "irons_spellbooks:lightning_upgrade_orb",
+                "count": 1,
+                "name": "雷霆升级法球"
+            },
+            {
+                "item": "irons_spellbooks:holy_upgrade_orb",
+                "count": 1,
+                "name": "神圣升级法球"
+            },
+            {
+                "item": "irons_spellbooks:ender_upgrade_orb",
+                "count": 1,
+                "name": "末影升级法球"
+            },
+            {
+                "item": "irons_spellbooks:blood_upgrade_orb",
+                "count": 1,
+                "name": "猩红升级法球"
+            },
+            {
+                "item": "irons_spellbooks:evocation_upgrade_orb",
+                "count": 1,
+                "name": "唤魔升级法球"
+            },
+            {
+                "item": "irons_spellbooks:nature_upgrade_orb",
+                "count": 1,
+                "name": "自然升级法球"
+            },
+            {
+                "item": "irons_spellbooks:mana_upgrade_orb",
+                "count": 1,
+                "name": "法力升级法球"
+            },
+            {
+                "item": "irons_spellbooks:cooldown_upgrade_orb",
+                "count": 1,
+                "name": "冷却缩减法球"
+            },
+            {
+                "item": "irons_spellbooks:protection_upgrade_orb",
+                "count": 1,
+                "name": "抗性升级法球"
+            }
+        ]
+    }
+}
