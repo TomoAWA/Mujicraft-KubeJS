@@ -1,0 +1,69 @@
+# 混凝土商店村民（简化版 - 配合 KubeJS 保护使用）
+# 出售所有16种颜色的混凝土方块
+# 价格：1个绿宝石 = 64个混凝土（一组）
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"混凝土商店","color":"yellow","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","concrete_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:plains"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:white_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:black_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:brown_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:red_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:orange_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:yellow_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lime_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:green_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cyan_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:purple_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:magenta_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pink_concrete",Count:64}}]}}
+
+# 如果想生成在自己脚下（会看向玩家，有声音）：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"混凝土商店","color":"yellow","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","concrete_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:plains"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:white_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:black_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:brown_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:red_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:orange_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:yellow_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lime_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:green_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cyan_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:purple_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:magenta_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pink_concrete",Count:64}}]}}
+
+# 如果想要静音版本（不发出声音）：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"混凝土商店","color":"yellow","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Silent:1b,Tags:["shop_villager","concrete_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:plains"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:white_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:black_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:brown_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:red_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:orange_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:yellow_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lime_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:green_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cyan_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:purple_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:magenta_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pink_concrete",Count:64}}]}}
+
+# 旧版本（不会看向玩家，但完全静止）：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"混凝土商店","color":"yellow","bold":true}',CustomNameVisible:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Tags:["shop_villager","concrete_shop"],Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:white_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:gray_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:black_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:brown_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:red_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:orange_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:yellow_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lime_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:green_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cyan_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:light_blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blue_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:purple_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:magenta_concrete",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pink_concrete",Count:64}}]}}
+
+# 包含的16种混凝土颜色：
+# 1. 白色混凝土 (white_concrete)
+# 2. 淡灰色混凝土 (light_gray_concrete)
+# 3. 灰色混凝土 (gray_concrete)
+# 4. 黑色混凝土 (black_concrete)
+# 5. 棕色混凝土 (brown_concrete)
+# 6. 红色混凝土 (red_concrete)
+# 7. 橙色混凝土 (orange_concrete)
+# 8. 黄色混凝土 (yellow_concrete)
+# 9. 黄绿色混凝土 (lime_concrete)
+# 10. 绿色混凝土 (green_concrete)
+# 11. 青色混凝土 (cyan_concrete)
+# 12. 淡蓝色混凝土 (light_blue_concrete)
+# 13. 蓝色混凝土 (blue_concrete)
+# 14. 紫色混凝土 (purple_concrete)
+# 15. 品红色混凝土 (magenta_concrete)
+# 16. 粉红色混凝土 (pink_concrete)
+
+# 村民属性说明：
+# - CustomName - 村民名称（使用JSON格式设置颜色）
+# - CustomNameVisible:1b - 显示名称
+# - NoAI:1b - 无 AI（不会移动）
+# - PersistenceRequired:1b - 永久存在（不会消失）
+# - Silent:1b - 静音（不发出声音）
+# - Tags:["shop_villager","concrete_shop"] - 标签，让 KubeJS 识别并保护
+# - maxUses:2147483647 - 无限交易次数
+
+# KubeJS 保护说明：
+# 该村民受到 protect_shop_villagers.js 脚本保护
+# - 完全无法被玩家攻击（像创造模式玩家一样）
+# - 攻击者会收到提示消息
+# - 管理员可以使用 /kill 命令删除
+
+# 使用方法：
+# 1. 确保 kubejs/server_scripts/protect_shop_villagers.js 已加载
+# 2. 复制上面的命令
+# 3. 粘贴到游戏聊天框执行
+# 4. 右键村民打开交易界面
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=shop_villager,distance=..10]
+
+# 其他颜色示例：
+# 红色粗体：{"text":"商店名称","color":"red","bold":true}
+# 金色粗体：{"text":"商店名称","color":"gold","bold":true}
+# 绿色粗体：{"text":"商店名称","color":"green","bold":true}
+# 蓝色粗体：{"text":"商店名称","color":"blue","bold":true}
+# 紫色粗体：{"text":"商店名称","color":"light_purple","bold":true}
+# 青色粗体：{"text":"商店名称","color":"aqua","bold":true}
+
+# 可用颜色：
+# black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray,
+# dark_gray, blue, green, aqua, red, light_purple, yellow, white

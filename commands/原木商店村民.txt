@@ -1,0 +1,42 @@
+# 原木商店村民
+# 出售所有主世界原木类型
+# 价格：1个绿宝石 = 32个木头（半组）
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"原木商店","color":"dark_green","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","wood_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:toolsmith",level:5,type:"minecraft:taiga"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:oak_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:spruce_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:birch_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:jungle_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:acacia_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:dark_oak_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:mangrove_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cherry_log",Count:32}}]}}
+
+# 如果想生成在自己脚下：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"原木商店","color":"dark_green","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","wood_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:toolsmith",level:5,type:"minecraft:taiga"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:oak_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:spruce_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:birch_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:jungle_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:acacia_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:dark_oak_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:mangrove_log",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cherry_log",Count:32}}]}}
+
+# 包含的木头类型（共8种）：
+
+## 主世界原木：
+# 1. 橡木原木 (oak_log)
+# 2. 云杉木原木 (spruce_log)
+# 3. 白桦木原木 (birch_log)
+# 4. 丛林木原木 (jungle_log)
+# 5. 金合欢木原木 (acacia_log)
+# 6. 深色橡木原木 (dark_oak_log)
+# 7. 红树木原木 (mangrove_log)
+# 8. 樱花木原木 (cherry_log)
+
+# 村民属性：
+# - 名称：原木商店（深绿色粗体）
+# - 职业：工具匠 (toolsmith) - 原版职业，穿棕色围裙
+# - 等级：5（大师级）
+# - 类型：针叶林村民 (taiga)
+# - 标签：shop_villager, wood_shop
+# - 受 KubeJS 保护脚本保护
+
+# 使用方法：
+# 1. 确保 protect_shop_villagers.js 已加载
+# 2. 复制上面的命令执行
+# 3. 右键村民打开交易界面
+# 4. 用绿宝石购买各种木头
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=wood_shop,distance=..10]
+
+# 价格说明：
+# 统一价格：1个绿宝石 = 32个木头（半组）
+# 所有木头类型价格相同

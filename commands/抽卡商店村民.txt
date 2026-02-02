@@ -1,0 +1,83 @@
+# 抽卡商店村民
+# 出售各种抽卡券，右键使用抽卡券可以随机获得奖励！
+# 需要配合 KubeJS 脚本使用
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"★ 可露东尔的采购部专员 ★","color":"gold","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","gacha_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:cleric",level:5,type:"minecraft:jungle"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:iron_ingot",Count:16},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"普通抽卡券","color":"white","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"✦ 普通抽卡券 ✦","color":"white","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取一次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：70%","color":"white","italic":false}','{"text":"• R卡（稀有）：25%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：4.5%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：0.5%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：16个铁锭","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"normal"}}},{maxUses:2147483647,buy:{id:"minecraft:diamond",Count:8},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"高级抽卡券","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"✦ 高级抽卡券 ✦","color":"aqua","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取一次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：40%","color":"white","italic":false}','{"text":"• R卡（稀有）：45%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：13%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：2%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：8个钻石","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"advanced"}}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:32},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"传说抽卡券","color":"gold","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"✦ 传说抽卡券 ✦","color":"gold","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取一次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：0%","color":"white","italic":false}','{"text":"• R卡（稀有）：50%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：40%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：10%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：32个绿宝石","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"legendary"}}},{maxUses:2147483647,buy:{id:"minecraft:iron_block",Count:16},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"普通十连券","color":"white","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"✦ 普通十连抽卡券 ✦","color":"white","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取十次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"保底机制：","color":"red","bold":true,"italic":false}','{"text":"• 至少1张R卡或以上！","color":"blue","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：70%","color":"white","italic":false}','{"text":"• R卡（稀有）：25%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：4.5%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：0.5%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：16个铁块（144铁锭，9折）","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"normal_10"}}},{maxUses:2147483647,buy:{id:"minecraft:diamond_block",Count:8},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"高级十连券","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"✦ 高级十连抽卡券 ✦","color":"aqua","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取十次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"保底机制：","color":"red","bold":true,"italic":false}','{"text":"• 至少1张SR卡或以上！","color":"light_purple","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：40%","color":"white","italic":false}','{"text":"• R卡（稀有）：45%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：13%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：2%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：8个钻石块（72钻石，9折）","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"advanced_10"}}},{maxUses:2147483647,buy:{id:"minecraft:emerald_block",Count:32},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"传说十连券","color":"gold","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"✦ 传说十连抽卡券 ✦","color":"gold","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取十次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"保底机制：","color":"red","bold":true,"italic":false}','{"text":"• 至少2张SR卡或以上！","color":"light_purple","italic":false}','{"text":"• 至少1张SSR卡！","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：0%","color":"white","italic":false}','{"text":"• R卡（稀有）：50%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：40%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：10%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：32个绿宝石块（288绿宝石，9折）","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"legendary_10"}}}]}}
+
+# 如果想生成在自己脚下：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"★ 可露东尔的采购部专员 ★","color":"gold","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","gacha_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:cleric",level:5,type:"minecraft:jungle"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:iron_ingot",Count:16},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"普通抽卡券","color":"white","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"✦ 普通抽卡券 ✦","color":"white","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取一次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：70%","color":"white","italic":false}','{"text":"• R卡（稀有）：25%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：4.5%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：0.5%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：16个铁锭","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"normal"}}},{maxUses:2147483647,buy:{id:"minecraft:diamond",Count:8},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"高级抽卡券","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"✦ 高级抽卡券 ✦","color":"aqua","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取一次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：40%","color":"white","italic":false}','{"text":"• R卡（稀有）：45%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：13%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：2%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：8个钻石","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"advanced"}}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:32},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"传说抽卡券","color":"gold","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"✦ 传说抽卡券 ✦","color":"gold","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取一次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：0%","color":"white","italic":false}','{"text":"• R卡（稀有）：50%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：40%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：10%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：32个绿宝石","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"legendary"}}},{maxUses:2147483647,buy:{id:"minecraft:iron_block",Count:16},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"普通十连券","color":"white","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"✦ 普通十连抽卡券 ✦","color":"white","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gray","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取十次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"保底机制：","color":"red","bold":true,"italic":false}','{"text":"• 至少1张R卡或以上！","color":"blue","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：70%","color":"white","italic":false}','{"text":"• R卡（稀有）：25%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：4.5%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：0.5%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：16个铁块（144铁锭，9折）","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"normal_10"}}},{maxUses:2147483647,buy:{id:"minecraft:diamond_block",Count:8},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"高级十连券","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"✦ 高级十连抽卡券 ✦","color":"aqua","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_aqua","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取十次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"保底机制：","color":"red","bold":true,"italic":false}','{"text":"• 至少1张SR卡或以上！","color":"light_purple","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：40%","color":"white","italic":false}','{"text":"• R卡（稀有）：45%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：13%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：2%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：8个钻石块（72钻石，9折）","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"advanced_10"}}},{maxUses:2147483647,buy:{id:"minecraft:emerald_block",Count:32},sell:{id:"minecraft:paper",Count:1,tag:{display:{Name:'{"text":"传说十连券","color":"gold","bold":true,"italic":false}',Lore:['{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"✦ 传说十连抽卡券 ✦","color":"gold","bold":true,"italic":false}','{"text":"━━━━━━━━━━━━━━━━━━","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"右键使用可以抽取十次奖励！","color":"yellow","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"保底机制：","color":"red","bold":true,"italic":false}','{"text":"• 至少2张SR卡或以上！","color":"light_purple","italic":false}','{"text":"• 至少1张SSR卡！","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"奖池内容：","color":"aqua","italic":false}','{"text":"• N卡（普通）：0%","color":"white","italic":false}','{"text":"• R卡（稀有）：50%","color":"blue","italic":false}','{"text":"• SR卡（超稀有）：40%","color":"light_purple","italic":false}','{"text":"• SSR卡（传说）：10%","color":"gold","italic":false}','{"text":"","color":"gray","italic":false}','{"text":"价格：32个绿宝石块（288绿宝石，9折）","color":"gray","italic":false}']},gacha_ticket:1b,gacha_type:"legendary_10"}}}]}}
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=gacha_shop,distance=..10]
+
+# ═══════════════════════════════════════════════════════════
+# 抽卡券类型说明
+# ═══════════════════════════════════════════════════════════
+
+## 单抽券（价格已调整）：
+# 1. 普通抽卡券 - 16个铁锭
+#    - N卡：70% | R卡：25% | SR卡：4.5% | SSR卡：0.5%
+#
+# 2. 高级抽卡券 - 8个钻石
+#    - N卡：40% | R卡：45% | SR卡：13% | SSR卡：2%
+#
+# 3. 传说抽卡券 - 32个绿宝石
+#    - N卡：0% | R卡：50% | SR卡：40% | SSR卡：10%
+
+## 十连券（9折优惠，每次只卖1张）：
+# 4. 普通十连券 - 16个铁块（=144个铁锭，原价160铁锭，9折）
+#    - 保底：至少1张R卡或以上
+#
+# 5. 高级十连券 - 8个钻石块（=72个钻石，原价80钻石，9折）
+#    - 保底：至少1张SR卡或以上
+#
+# 6. 传说十连券 - 32个绿宝石块（=288个绿宝石，原价320绿宝石，9折）
+#    - 保底：至少2张SR卡 + 至少1张SSR卡
+
+# ═══════════════════════════════════════════════════════════
+# 价格对比表
+# ═══════════════════════════════════════════════════════════
+# 
+# 普通抽：
+#   单抽：16铁锭
+#   十连：16铁块 = 144铁锭（9折）
+#
+# 高级抽：
+#   单抽：8钻石
+#   十连：8钻石块 = 72钻石（9折）
+#
+# 传说抽：
+#   单抽：32绿宝石
+#   十连：32绿宝石块 = 288绿宝石（9折）
+
+# ═══════════════════════════════════════════════════════════
+# 使用方法
+# ═══════════════════════════════════════════════════════════
+# 1. 先执行上面的命令召唤抽卡商店村民
+# 2. 将 gacha_system.js 放入 kubejs/server_scripts/ 文件夹
+# 3. 使用 /kubejs reload server_scripts 重载脚本
+# 4. 购买抽卡券后，右键使用即可抽卡！
+
+# ═══════════════════════════════════════════════════════════
+# 村民属性
+# ═══════════════════════════════════════════════════════════
+# - 名称：★ 可露东尔的采购部专员 ★（金色粗体，带星星装饰）
+# - 职业：牧师 (cleric) - 穿紫色长袍
+# - 等级：5（大师级）
+# - 类型：丛林村民 (jungle)
+# - 标签：shop_villager, gacha_shop
+# - 受 KubeJS 保护脚本保护
+
+# ═══════════════════════════════════════════════════════════
+# 注意事项
+# ═══════════════════════════════════════════════════════════
+# - 抽卡券使用 NBT 标签识别：gacha_ticket:1b 和 gacha_type
+# - 必须配合 KubeJS 脚本才能使用
+# - 奖池内容可以在脚本中自定义
+# - 十连券有保底机制，不会太非
+# - 抽卡结果会在聊天栏显示
+# - 十连券每次只卖1张，避免误购
+# - 注意：村民交易界面只显示第一个槽位的数量！
+#   如果使用 buy2，界面上只会显示 buy 的数量
+#   所以超过64个的物品建议直接用矿物块

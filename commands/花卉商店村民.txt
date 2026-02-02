@@ -1,0 +1,102 @@
+# 花卉商店村民
+# 出售所有1.20.1原版花卉（包括小型花、大型花、特殊植物）
+# 价格：常见花卉1绿宝石=64朵，大型花卉1绿宝石=40朵，稀有花卉适当提价
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"花卉商店","color":"light_purple","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","flower_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:farmer",level:5,type:"minecraft:plains"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:dandelion",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:poppy",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blue_orchid",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:allium",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:azure_bluet",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:red_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:orange_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:white_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pink_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:oxeye_daisy",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cornflower",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lily_of_the_valley",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:sunflower",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lilac",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:rose_bush",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:peony",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:2},sell:{id:"minecraft:pink_petals",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:3},sell:{id:"minecraft:wither_rose",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:4},sell:{id:"minecraft:torchflower",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:4},sell:{id:"minecraft:pitcher_plant",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:5},sell:{id:"minecraft:spore_blossom",Count:32}}]}}
+
+# 如果想生成在自己脚下：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"花卉商店","color":"light_purple","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","flower_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:farmer",level:5,type:"minecraft:plains"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:dandelion",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:poppy",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blue_orchid",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:allium",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:azure_bluet",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:red_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:orange_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:white_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pink_tulip",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:oxeye_daisy",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cornflower",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lily_of_the_valley",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:sunflower",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:lilac",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:rose_bush",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:peony",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:2},sell:{id:"minecraft:pink_petals",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:3},sell:{id:"minecraft:wither_rose",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:4},sell:{id:"minecraft:torchflower",Count:64}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:4},sell:{id:"minecraft:pitcher_plant",Count:40}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:5},sell:{id:"minecraft:spore_blossom",Count:32}}]}}
+
+# 包含的花卉类型（共21种）：
+
+## 常见小型花卉（12种）- 1绿宝石 = 64朵（一组）：
+# 1. 蒲公英 (dandelion) - 黄色，最常见的花
+# 2. 虞美人 (poppy) - 红色，经典花朵
+# 3. 蓝花美耳草 (blue_orchid) - 蓝色，沼泽花
+# 4. 绒球葱 (allium) - 紫色，球形花
+# 5. 茜草花 (azure_bluet) - 白色，小巧精致
+# 6. 红色郁金香 (red_tulip) - 红色郁金香
+# 7. 橙色郁金香 (orange_tulip) - 橙色郁金香
+# 8. 白色郁金香 (white_tulip) - 白色郁金香
+# 9. 粉红色郁金香 (pink_tulip) - 粉色郁金香
+# 10. 滨菊 (oxeye_daisy) - 白色雏菊
+# 11. 矢车菊 (cornflower) - 蓝色，平原花
+# 12. 铃兰 (lily_of_the_valley) - 白色，森林花
+
+## 常见大型花卉（4种）- 1绿宝石 = 40朵：
+# 13. 向日葵 (sunflower) - 黄色，双格高
+# 14. 丁香 (lilac) - 紫色，双格高
+# 15. 玫瑰丛 (rose_bush) - 红色，双格高
+# 16. 牡丹 (peony) - 粉色，双格高
+
+## 较稀有花卉：
+# 17. 粉红色花簇 (pink_petals) - 樱花林地面装饰 - 2绿宝石 = 64朵
+# 18. 凋零玫瑰 (wither_rose) - 黑色，凋零掉落 - 3绿宝石 = 64朵
+
+## 稀有远古植物：
+# 19. 火把花 (torchflower) - 橙色，远古植物 - 4绿宝石 = 64朵
+# 20. 瓶子草 (pitcher_plant) - 紫色，远古植物 - 4绿宝石 = 40朵
+
+## 极稀有花卉：
+# 21. 垂根 (spore_blossom) - 繁茂洞穴天花板装饰 - 5绿宝石 = 32朵
+
+# 村民属性：
+# - 名称：花卉商店（淡紫色粗体）
+# - 职业：农民 (farmer) - 穿草帽的村民
+# - 等级：5（大师级）
+# - 类型：平原村民 (plains)
+# - 标签：shop_villager, flower_shop
+# - 受 KubeJS 保护脚本保护
+
+# 使用方法：
+# 1. 确保 protect_shop_villagers.js 已加载
+# 2. 复制上面的命令执行
+# 3. 右键村民打开交易界面
+# 4. 用绿宝石购买各种花卉
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=flower_shop,distance=..10]
+
+# 价格说明：
+# 常见小型花卉：1个绿宝石 = 64朵（一组）- 随处可见
+# 常见大型花卉：1个绿宝石 = 40朵 - 占用2格高度
+# 粉红色花簇：2个绿宝石 = 64朵 - 樱花林限定
+# 凋零玫瑰：3个绿宝石 = 64朵 - 需击杀凋零获得
+# 火把花：4个绿宝石 = 64朵 - 远古种子种植
+# 瓶子草：4个绿宝石 = 40朵 - 远古种子种植
+# 垂根：5个绿宝石 = 32朵 - 繁茂洞穴限定
+
+# 特点：
+# - 涵盖所有1.20.1原版花卉
+# - 包含4种颜色的郁金香
+# - 包含远古植物（火把花、瓶子草）
+# - 包含稀有花卉（凋零玫瑰、垂根）
+# - 包含樱花林特有的粉红色花簇
+# - 适合花园建造和染料制作
+
+# 染料对应表：
+# 黄色染料：蒲公英、向日葵
+# 红色染料：虞美人、红色郁金香、玫瑰丛
+# 橙色染料：橙色郁金香、火把花
+# 白色染料：茜草花、白色郁金香、滨菊、铃兰
+# 粉色染料：粉红色郁金香、牡丹、粉红色花簇
+# 蓝色染料：蓝花美耳草、矢车菊
+# 紫色染料：绒球葱
+# 品红色染料：丁香
+# 淡灰色染料：茜草花、滨菊
+# 黑色染料：凋零玫瑰
+
+# 建筑装饰用途：
+# - 花园造景
+# - 花田种植
+# - 室内装饰
+# - 染料生产
+# - 蜜蜂养殖
+# - 可疑的炖菜制作
+
+# 注意事项：
+# - 凋零玫瑰会造成凋零效果，小心使用
+# - 垂根只能放置在方块底部
+# - 粉红色花簇可以叠加放置（1-4层）
+# - 大型花卉需要2格高度空间

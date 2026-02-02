@@ -1,0 +1,59 @@
+# 石英建材商店村民
+# 专门出售各种石英建筑材料（石英块、楼梯、台阶、柱子等）
+# 价格：1个绿宝石 = 32个建材（半组）
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"石英建材商店","color":"white","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","quartz_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:desert"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_block",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_stairs",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_slab",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_pillar",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:chiseled_quartz_block",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_quartz",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_quartz_stairs",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_quartz_slab",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_bricks",Count:32}}]}}
+
+# 如果想生成在自己脚下：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"石英建材商店","color":"white","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","quartz_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:desert"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_block",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_stairs",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_slab",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_pillar",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:chiseled_quartz_block",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_quartz",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_quartz_stairs",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_quartz_slab",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz_bricks",Count:32}}]}}
+
+# 包含的石英建材类型（共9种）：
+
+## 基础石英方块（5种）：
+# 1. 石英块 (quartz_block) - 基础石英方块
+# 2. 石英楼梯 (quartz_stairs) - 楼梯
+# 3. 石英台阶 (quartz_slab) - 半砖
+# 4. 石英柱 (quartz_pillar) - 竖纹柱子
+# 5. 錾制石英块 (chiseled_quartz_block) - 雕花石英
+
+## 平滑石英系列（4种）：
+# 6. 平滑石英块 (smooth_quartz) - 平滑版本
+# 7. 平滑石英楼梯 (smooth_quartz_stairs) - 平滑楼梯
+# 8. 平滑石英台阶 (smooth_quartz_slab) - 平滑半砖
+# 9. 石英砖 (quartz_bricks) - 砖块纹理
+
+# 村民属性：
+# - 名称：石英建材商店（白色粗体）
+# - 职业：石匠 (mason)
+# - 等级：5（大师级）
+# - 类型：沙漠村民 (desert)
+# - 标签：shop_villager, quartz_shop
+# - 受 KubeJS 保护脚本保护
+
+# 使用方法：
+# 1. 确保 protect_shop_villagers.js 已加载
+# 2. 复制上面的命令执行
+# 3. 右键村民打开交易界面
+# 4. 用绿宝石购买各种石英建材
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=quartz_shop,distance=..10]
+
+# 价格说明：
+# 统一价格：1个绿宝石 = 32个建材（半组）
+# 所有石英建材价格相同
+
+# 特点：
+# - 专注于石英建筑材料
+# - 包含所有石英变种
+# - 楼梯、台阶、柱子等建筑必备
+# - 适合建造白色/现代风格建筑
+# - 省去了烧制和合成的麻烦
+
+# 建筑搭配建议：
+# - 石英块 + 石英柱 = 经典柱式建筑
+# - 平滑石英 = 现代简约风格
+# - 錾制石英 = 装饰细节
+# - 石英砖 = 砖墙纹理
+# - 楼梯 + 台阶 = 屋顶和装饰

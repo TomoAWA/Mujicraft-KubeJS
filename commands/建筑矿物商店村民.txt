@@ -1,0 +1,64 @@
+# 建筑矿物商店村民
+# 出售各种建筑用矿物和石头（石英、紫水晶、萤石、安山岩等）
+# 价格：1个绿宝石 = 32个矿物（半组）
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"鸡肋矿物商店","color":"light_purple","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","mineral_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:desert"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:amethyst_shard",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:glowstone_dust",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:prismarine_shard",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:prismarine_crystals",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:echo_shard",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:andesite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:diorite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:granite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:calcite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:tuff",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:dripstone_block",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_basalt",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:deepslate",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blackstone",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:basalt",Count:32}}]}}
+
+# 如果想生成在自己脚下：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"建筑矿物商店","color":"light_purple","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","mineral_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:mason",level:5,type:"minecraft:desert"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:quartz",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:amethyst_shard",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:glowstone_dust",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:prismarine_shard",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:prismarine_crystals",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:echo_shard",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:andesite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:diorite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:granite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:calcite",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:tuff",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:dripstone_block",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:smooth_basalt",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:deepslate",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:blackstone",Count:32}},{maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:basalt",Count:32}}]}}
+
+# 包含的矿物类型（共16种）：
+
+## 下界矿物（4种）：
+# 1. 下界石英 (quartz) - 白色建筑主力
+# 2. 萤石粉 (glowstone_dust) - 照明装饰
+# 3. 黑石 (blackstone) - 黑色建筑石
+# 4. 玄武岩 (basalt) - 柱状建筑石
+
+## 海洋矿物（2种）：
+# 5. 海晶碎片 (prismarine_shard) - 海晶石材料
+# 6. 海晶砂粒 (prismarine_crystals) - 海晶灯材料
+
+## 洞穴矿物（7种）：
+# 7. 紫水晶碎片 (amethyst_shard) - 紫色装饰
+# 8. 回响碎片 (echo_shard) - 稀有材料
+# 9. 方解石 (calcite) - 白色建筑方块
+# 10. 凝灰岩 (tuff) - 灰色建筑方块
+# 11. 滴水石块 (dripstone_block) - 棕色装饰方块
+# 12. 平滑玄武岩 (smooth_basalt) - 黑色建筑方块
+# 13. 深板岩 (deepslate) - 深灰色建筑石
+
+## 主世界石头 - 鸡肋三兄弟（3种）：
+# 14. 安山岩 (andesite) - 灰色石头
+# 15. 闪长岩 (diorite) - 白色石头
+# 16. 花岗岩 (granite) - 红棕色石头
+
+# 村民属性：
+# - 名称：建筑矿物商店（淡紫色粗体）
+# - 职业：石匠 (mason)
+# - 等级：5（大师级）
+# - 类型：沙漠村民 (desert)
+# - 标签：shop_villager, mineral_shop
+# - 受 KubeJS 保护脚本保护
+
+# 使用方法：
+# 1. 确保 protect_shop_villagers.js 已加载
+# 2. 复制上面的命令执行
+# 3. 右键村民打开交易界面
+# 4. 用绿宝石购买各种建筑矿物
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=mineral_shop,distance=..10]
+
+# 价格说明：
+# 统一价格：1个绿宝石 = 32个矿物（半组）
+# 所有矿物类型价格相同
+
+# 特点：
+# - 主要用于建筑装饰
+# - 包含各种颜色的建筑方块材料
+# - 石英、紫水晶等难获取的装饰材料
+# - 海晶材料、回响碎片等稀有物品
+# - 安山岩、闪长岩、花岗岩等"鸡肋"石头
+# - 深板岩、黑石、玄武岩等特殊建筑石

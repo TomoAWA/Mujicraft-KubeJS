@@ -1,0 +1,176 @@
+# 废品回收村民
+# 回收各种基本没用的废品，换取绿宝石
+# 价格：大量废品换1个绿宝石（帮你清理仓库！）
+
+# 生成在指定玩家位置（会看向玩家，有声音）
+/execute at Sakik0_Togawa_ run summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"废品回收站","color":"dark_gray","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","recycle_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:toolsmith",level:5,type:"minecraft:swamp"},Offers:{Recipes:[{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:dirt",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:cobblestone",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:gravel",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:sand",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:diorite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:andesite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:granite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:tuff",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:calcite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:deepslate",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:wheat_seeds",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:beetroot_seeds",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:kelp",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:seagrass",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:netherrack",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:soul_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:soul_soil",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:basalt",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:blackstone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:end_stone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:bamboo",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:cactus",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:sugar_cane",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:melon_seeds",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:pumpkin_seeds",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"biomesoplenty:white_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"biomesoplenty:orange_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"biomesoplenty:black_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexscaves:limestone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexscaves:guanostone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexscaves:coprolite",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"twilightforest:deadrock",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"twilightforest:trollsteinn",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:rotten_flesh",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:spider_eye",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:string",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:bone",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:gunpowder",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:maggot",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:mosquito_proboscis",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:roadrunner_feather",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:feather",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:leather",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:rabbit_hide",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:poisonous_potato",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"farmersdelight:tree_bark",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"farmersdelight:straw",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:shed_snake_skin",Count:32},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:slime_ball",Count:32},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:bear_fur",Count:24},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:phantom_membrane",Count:24},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:crocodile_scute",Count:16},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:rabbit_foot",Count:16},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:komodo_spit",Count:12},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:scute",Count:12},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+# 如果想生成在自己脚下：
+/summon minecraft:villager ~ ~ ~ {CustomName:'{"text":"废品回收站","color":"dark_gray","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Tags:["shop_villager","recycle_shop"],Attributes:[{Name:"generic.movement_speed",Base:0}],VillagerData:{profession:"minecraft:toolsmith",level:5,type:"minecraft:swamp"},Offers:{Recipes:[{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:dirt",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:cobblestone",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:gravel",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:sand",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:diorite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:andesite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:granite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:tuff",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:calcite",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:deepslate",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:wheat_seeds",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:beetroot_seeds",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:kelp",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:seagrass",Count:64},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:netherrack",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:soul_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:soul_soil",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:basalt",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:blackstone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:end_stone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:bamboo",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:cactus",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:sugar_cane",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:melon_seeds",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:pumpkin_seeds",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"biomesoplenty:white_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"biomesoplenty:orange_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"biomesoplenty:black_sand",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexscaves:limestone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexscaves:guanostone",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexscaves:coprolite",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"twilightforest:deadrock",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"twilightforest:trollsteinn",Count:56},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:rotten_flesh",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:spider_eye",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:string",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:bone",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:gunpowder",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:maggot",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:mosquito_proboscis",Count:48},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:roadrunner_feather",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:feather",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:leather",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:rabbit_hide",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:poisonous_potato",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"farmersdelight:tree_bark",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"farmersdelight:straw",Count:40},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:shed_snake_skin",Count:32},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:slime_ball",Count:32},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:bear_fur",Count:24},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:phantom_membrane",Count:24},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:crocodile_scute",Count:16},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:rabbit_foot",Count:16},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"alexsmobs:komodo_spit",Count:12},sell:{id:"minecraft:emerald",Count:1}},{maxUses:2147483647,priceMultiplier:0f,demand:0,specialPrice:0,buy:{id:"minecraft:scute",Count:12},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+# 回收的废品类型（共55种）：
+
+## 💩 最垃圾的方块（64个 = 1绿宝石）：
+# 1. 泥土 (dirt) - 到处都是，占地方
+# 2. 圆石 (cobblestone) - 挖矿必出，仓库杀手
+# 3. 沙砾 (gravel) - 挖矿烦人，没啥用
+# 4. 沙子 (sand) - 沙漠一大堆
+# 5. 闪长岩 (diorite) - 丑陋的白石头
+# 6. 安山岩 (andesite) - 丑陋的灰石头
+# 7. 花岗岩 (granite) - 丑陋的红石头
+# 8. 凝灰岩 (tuff) - 地下一大堆
+# 9. 方解石 (calcite) - 晶洞副产品
+# 10. 深板岩 (deepslate) - 深层挖矿必出
+# 11. 小麦种子 (wheat_seeds) - 打草必出
+# 12. 甜菜种子 (beetroot_seeds) - 村庄一大堆
+# 13. 海带 (kelp) - 海里到处都是
+# 14. 海草 (seagrass) - 海底杂草
+
+## 🔥 需要跑图的废品（56个 = 1绿宝石）：
+# 16. 下界岩 (netherrack) - 下界遍地都是
+# 17. 灵魂沙 (soul_sand) - 走路还慢
+# 18. 灵魂土 (soul_soil) - 比灵魂沙还没用
+# 19. 玄武岩 (basalt) - 玄武岩三角洲一大堆
+# 20. 黑石 (blackstone) - 下界圆石
+# 21. 末地石 (end_stone) - 末地遍地都是
+# 22. 竹子 (bamboo) - 竹林一大片
+# 23. 仙人掌 (cactus) - 沙漠植物
+# 24. 甘蔗 (sugar_cane) - 水边常见
+# 25. 西瓜种子 (melon_seeds) - 丛林常见
+# 26. 南瓜种子 (pumpkin_seeds) - 到处都有
+
+## 🌈 模组特色废品（56个 = 1绿宝石）：
+# 27. 白沙 (biomesoplenty:white_sand) - BOP白沙滩
+# 28. 橙沙 (biomesoplenty:orange_sand) - BOP橙沙滩
+# 29. 黑沙 (biomesoplenty:black_sand) - BOP黑沙滩
+# 30. 石灰岩 (alexscaves:limestone) - Alex洞穴石头
+# 31. 鸟粪石 (alexscaves:guanostone) - Alex洞穴蝙蝠粪便石
+# 32. 粪化石 (alexscaves:coprolite) - Alex洞穴粪便化石
+# 33. 死岩 (twilightforest:deadrock) - 暮色森林高地废石
+# 34. 巨魔石 (twilightforest:trollsteinn) - 暮色森林巨魔洞穴石
+
+## 🧟 刷怪塔产物（48个 = 1绿宝石）：
+# 35. 腐肉 (rotten_flesh) - 僵尸必掉，吃了还饿
+# 36. 蜘蛛眼 (spider_eye) - 蜘蛛掉落，有毒
+# 37. 线 (string) - 蜘蛛掉一大堆
+# 38. 骨头 (bone) - 骷髅掉落，做骨粉还行
+# 39. 火药 (gunpowder) - 爬行者掉落，做TNT用
+# 40. 蛆虫 (alexsmobs:maggot) - Alex生物苍蝇掉落
+# 41. 蚊子口器 (alexsmobs:mosquito_proboscis) - Alex生物蚊子掉落
+
+## 🐔 动物农场产物（40个 = 1绿宝石）：
+# 42. 羽毛 (feather) - 鸡掉落，做箭用
+# 43. 走鹃羽毛 (alexsmobs:roadrunner_feather) - Alex生物走鹃掉落
+# 44. 皮革 (leather) - 牛掉落，用处不大
+# 45. 兔子皮 (rabbit_hide) - 4个才能做1个皮革
+# 46. 毒马铃薯 (poisonous_potato) - 最没用的食物
+# 47. 树皮 (farmersdelight:tree_bark) - 农夫乐事剥树皮
+# 48. 稻草 (farmersdelight:straw) - 农夫乐事割稻草
+
+## 💚 稍微有用的废品（32个 = 1绿宝石）：
+# 49. 黏液球 (slime_ball) - 史莱姆掉落，做粘性活塞
+# 50. 蛇皮 (alexsmobs:shed_snake_skin) - Alex生物蛇蜕皮
+
+## 💙 有点价值的废品（24个 = 1绿宝石）：
+# 52. 幻翼膜 (phantom_membrane) - 幻翼掉落，修鞘翅
+# 53. 熊毛 (alexsmobs:bear_fur) - Alex生物熊掉落
+
+## 💎 稀有废品（16个 = 1绿宝石）：
+# 54. 兔子脚 (rabbit_foot) - 兔子稀有掉落，做跳跃药水
+# 55. 鳄鱼鳞甲 (alexsmobs:crocodile_scute) - Alex生物鳄鱼掉落
+
+## 💜 超稀有废品（12个 = 1绿宝石）：
+# 56. 鳞甲 (scute) - 海龟长大掉落，做海龟壳
+# 57. 科莫多龙唾液 (alexsmobs:komodo_spit) - Alex生物科莫多龙攻击掉落
+
+# 村民属性：
+# - 名称：废品回收站（深灰色粗体）
+# - 职业：工具匠 (toolsmith) - 穿棕色围裙，价格更稳定
+# - 等级：5（大师级）
+# - 类型：沼泽村民 (swamp) - 生活在垃圾堆里
+# - 标签：shop_villager, recycle_shop
+# - 受 KubeJS 保护脚本保护
+
+# 使用方法：
+# 1. 确保 protect_shop_villagers.js 已加载
+# 2. 复制上面的命令执行
+# 3. 右键村民打开交易界面
+# 4. 把仓库里的垃圾全卖给他！
+
+# 删除村民：
+# /kill @e[type=minecraft:villager,tag=recycle_shop,distance=..10]
+
+# 价格说明：
+# 最垃圾的：64个 = 1绿宝石（泥土、圆石、沙子、种子等主世界常见物）
+# 需要跑图：56个 = 1绿宝石（下界、末地、特定生物群系的物品）
+# 刷怪产物：48个 = 1绿宝石（腐肉、蜘蛛眼、线、骨头、火药）
+# 动物产物：40个 = 1绿宝石（羽毛、皮革、兔子皮、毒马铃薯）
+# 稍有用处：32个 = 1绿宝石（黏液球、蛇皮）
+# 有点价值：24个 = 1绿宝石（幻翼膜、熊毛）
+# 稀有废品：16个 = 1绿宝石（兔子脚、鳄鱼鳞甲）
+# 超稀有品：12个 = 1绿宝石（鳞甲、科莫多龙唾液）
+
+# ⚠️ 重要提示：
+# - 雪球和鸡蛋已删除（堆叠上限16，超过32个需要3格以上，交易栏只有2格）
+
+# ⚠️ 价格固定说明：
+# 已添加 priceMultiplier:0f、demand:0 和 specialPrice:0 标签
+# 改用工具匠职业（toolsmith）而非傻子，价格控制更稳定
+# 价格永不波动，不会打折也不会涨价！
+# 无论交易多少次，价格始终如一！
+
+# 特点：
+# - 帮你清理仓库！
+# - 把没用的东西变成绿宝石！
+# - 涵盖57种常见废品！（包含模组物品）
+# - 从此不用担心仓库爆满！
+# - 环保回收，变废为宝！
+
+# 模组物品说明：
+# 🌈 超多生物群系 (BiomesOPlenty)：
+#    - 白沙、橙沙、黑沙 - 特色沙滩方块
+# 
+# 🦎 Alex的生物 (Alex's Mobs)：
+#    - 蛆虫、蚊子口器 - 刷怪产物
+#    - 走鹃羽毛 - 动物掉落
+#    - 蛇皮 - 蛇蜕皮
+#    - 熊毛 - 熊掉落
+#    - 鳄鱼鳞甲 - 鳄鱼掉落
+#    - 科莫多龙唾液 - 科莫多龙攻击掉落
+# 
+# 🕳️ Alex的洞穴 (Alex's Caves)：
+#    - 石灰岩、鸟粪石、粪化石 - 洞穴废石
+# 
+# 🌲 暮色森林 (Twilight Forest)：
+#    - 死岩、巨魔石 - 暮色废石
+# 
+# 🍲 农夫乐事 (Farmer's Delight)：
+#    - 树皮 - 用斧头剥树皮获得
+#    - 稻草 - 用刀割稻米获得
+# - 环保回收，变废为宝！
+
+# 最适合回收的废品TOP10：
+# 1. 泥土 - 挖地必出，最占地方
+# 2. 圆石 - 挖矿必出，仓库杀手NO.1
+# 3. 腐肉 - 刷怪塔必出，吃了还饿
+# 4. 闪长岩/安山岩/花岗岩 - 挖矿三大丑石
+# 5. 沙砾 - 挖矿烦人精
+# 6. 下界岩 - 下界遍地都是
+# 7. 线 - 刷怪塔蜘蛛掉一大堆
+# 8. 骨头 - 刷怪塔骷髅掉一大堆
+# 9. 小麦种子 - 打草必出
+# 10. 深板岩 - 深层挖矿必出
+
+# 注意事项：
+# - 这些东西虽然便宜，但积少成多！
+# - 64个垃圾换1个绿宝石，清理仓库还能赚钱！
+# - 刷怪塔产出的腐肉、骨头、线都能卖！
+# - 挖矿产出的圆石、深板岩、丑石头都能卖！
+# - 从此告别仓库爆满的烦恼！
+
+# 商人语录：
+# "你的垃圾，我的宝贝！"
+# "别扔了，都是钱啊！"
+# "64个泥土换1个绿宝石，童叟无欺！"
+# "刷怪塔的腐肉堆成山？拿来吧你！"
+# "挖矿的圆石没地方放？我全要了！"
