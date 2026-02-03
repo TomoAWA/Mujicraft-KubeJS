@@ -77,17 +77,30 @@ BlockEvents.placed(event => {
     if (player.op) return
     
     let level = event.level
-    let pos = event.block.pos
+    let block = event.block
+    let pos = block.pos
     
     // 检查是否在保护区域内
     let areaName = isInProtectedArea(level, pos)
     if (areaName) {
-        // 先发送消息，再取消事件
+        // 发送提示消息
         player.tell(`§c该区域（${areaName}）受到保护，无法放置方块！`)
         player.server.runCommand(`title ${player.username} actionbar {"text":"§c该区域（${areaName}）受到保护！","bold":true}`)
         
-        // 取消放置事件
-        event.cancel()
+        // 获取放置的方块对应的物品
+        let blockItem = block.item
+        let playerName = player.username
+        
+        // 先移除方块
+        block.set('minecraft:air')
+        
+        // 延迟1tick后给玩家物品，确保放置消耗已经完成
+        event.server.scheduleInTicks(1, () => {
+            let p = event.server.getPlayer(playerName)
+            if (p) {
+                p.give(blockItem)
+            }
+        })
     }
 })
 
